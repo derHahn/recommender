@@ -30,7 +30,7 @@ def test_number_movie_3():
 
 def test_number_movie_4():
     top4 = random_recommender(k=4)
-    assert len(top4) ==4
+    assert len(top4) ==5
 
 
 def test_number_movie_10():

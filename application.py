@@ -1,9 +1,7 @@
 """
-Here we define the logic of our 
-web-application: 
+Here we define the logic of our web-application: 
 a.k.a. here lives the Flask application
 """
-
 from flask import Flask, render_template, request
 from recommenders import random_recommender
 
@@ -20,13 +18,6 @@ def recommendations_page():
     user_query = {movie:float(rate) for movie, rate in user_query.items()}
     print(user_query)
     top4 = random_recommender(query=user_query, k=4)
-    #return f"{top4}"
-    # return render_template(
-    #     "recommendations.html",
-    #     movie1=top4[0],
-    #     movie2=top4[1],
-    #     movie3=top4[2],
-    #     movie4=top4[3])
     return render_template(
          "recommendations.html",
          movie_list=top4)

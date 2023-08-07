@@ -15,6 +15,6 @@ MOVIES = [
 
 # with open(yourmodelfile,rb) as file: 
 #   nmf_model = pickle.load(file)
-nmf_model = ... 
+nmf_model = None 
 
-cosim_model = ...
+cosim_model = None

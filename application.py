@@ -12,7 +12,6 @@ app = Flask(__name__)
 
 @app.route("/") # <- routing with decorator: mapping Url to what is been displayed on the screen
 def landing_page():
-    #return "Welcome to the Decisions recommender"
     return render_template("landing_page.html")
 
 @app.route("/recommendation")

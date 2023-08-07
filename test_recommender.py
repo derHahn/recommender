@@ -1,6 +1,6 @@
 """TODO
 We want to write a program 
-that test that our program work 
+that tests that our program work 
 as we expect
 
 we use pytest

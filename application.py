@@ -14,6 +14,7 @@ def landing_page():
 
 @app.route("/recommendation")
 def recommendations_page():
+    print(request.args)
     user_query = request.args.to_dict()
     user_query = {movie:float(rate) for movie, rate in user_query.items()}
     print(user_query)

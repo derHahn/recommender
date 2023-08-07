@@ -5,10 +5,10 @@
     anotherproperty:anothervalue
 } */ 
 
-/* CHange the style by picking a tag */
+/* Change the style by picking a tag */
 
 h1 {
-    color: hotpink;
+    color: black;
 }
 
 p {
@@ -28,17 +28,17 @@ body {
     font-family:'Courier New', Courier, monospace;
     background-color: lavender;
 }
-/* CHange the style by picking the id of tag */
+/* Change the style by picking the id of tag */
 
 #rating-paragraph {
     color:indigo
 }
 
-/* CHange the style by picking the class of tag */
+/* Change the style by picking the class of tag */
 
 .form {
     width: 75px;
-    background-color: brown;
+    background-color: white;
 }
 
 .form:hover {
